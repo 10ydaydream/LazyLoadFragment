@@ -9,6 +9,7 @@ public class LazyLoadFragment extends Fragment {
     * 在Fragment创建和显示时会调用setUserVisibleHint方法， 并且传入参数为true
     *
     * 还需要了解什么场景下setUserVisibleHint的调用和传入参数值
+    * 
     * */
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
