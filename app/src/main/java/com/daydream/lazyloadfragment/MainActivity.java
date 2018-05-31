@@ -42,5 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         mViewPager.setAdapter(mPagerAdapter);
         mViewPager.setCurrentItem(0);
+
+        //test modify in branch master
     }
 }
